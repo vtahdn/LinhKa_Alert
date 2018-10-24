@@ -14,6 +14,8 @@
 		291423F3218073E200C8A359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291423F1218073E200C8A359 /* LaunchScreen.storyboard */; };
 		291423FE218073E200C8A359 /* LinhKa_AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291423FD218073E200C8A359 /* LinhKa_AlertTests.swift */; };
 		29142409218073E200C8A359 /* LinhKa_AlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29142408218073E200C8A359 /* LinhKa_AlertUITests.swift */; };
+		291424182180742800C8A359 /* dismiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 291424172180742800C8A359 /* dismiss.png */; };
+		2914241A2180742E00C8A359 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 291424192180742E00C8A359 /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		29142404218073E200C8A359 /* LinhKa_AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinhKa_AlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29142408218073E200C8A359 /* LinhKa_AlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinhKa_AlertUITests.swift; sourceTree = "<group>"; };
 		2914240A218073E200C8A359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291424172180742800C8A359 /* dismiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dismiss.png; sourceTree = "<group>"; };
+		291424192180742E00C8A359 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		291423E7218073E100C8A359 /* LinhKa_Alert */ = {
 			isa = PBXGroup;
 			children = (
+				291424162180741200C8A359 /* Resource */,
 				291423E8218073E100C8A359 /* AppDelegate.swift */,
 				291423EA218073E100C8A359 /* ViewController.swift */,
 				291423EC218073E100C8A359 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				2914240A218073E200C8A359 /* Info.plist */,
 			);
 			path = LinhKa_AlertUITests;
+			sourceTree = "<group>";
+		};
+		291424162180741200C8A359 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				291424192180742E00C8A359 /* 2.png */,
+				291424172180742800C8A359 /* dismiss.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,8 @@
 			files = (
 				291423F3218073E200C8A359 /* LaunchScreen.storyboard in Resources */,
 				291423F0218073E200C8A359 /* Assets.xcassets in Resources */,
+				2914241A2180742E00C8A359 /* 2.png in Resources */,
+				291424182180742800C8A359 /* dismiss.png in Resources */,
 				291423EE218073E100C8A359 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
